@@ -4,7 +4,7 @@
  $message = $_POST['message'];
 
 
-$email_from = 'https://tpv170000.github.io/taylorvportfolio/projects.html';
+$email_from = 'https://tpv170000.github.io/taylorvportfolio/contacts.html';
 
 $email_subject = "New Form Submission";
 
