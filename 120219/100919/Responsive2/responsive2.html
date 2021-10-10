@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name= 'viewport'
+		  content='width=device-width,initial-scale=1.0, maximum-scale=1.0'/>
+	<title>Responsive Design Page</title>
+	<link rel = 'stylesheet' href = 'styles.css'/>
+</head>
+	
+
+<body>
+	<div class = 'page'>
+		<div class = 'section menu'> <span class ="menu">
+			<center> <br> Profile | Projects | Case Studies | Contact Me </br> </center></span></div>
+		<div class = 'section header'>
+		<div class = 'photo'>
+			<img src = 'images/photo-small.jpg' 
+				srcset='images/photo-big.jpg 2000w,
+				images/photo-small.jpg 1000 w'
+				sizes='(min-width:960px) 960px, 1000vw'/>
+		</div>
+			<img src = 'images/header.svg'/>
+		</div>
+	
+		<div class = 'section content'>
+		<div class= 'illustration'>
+		<img src = 'images/illustration-small.png 1x'
+					srcset = 'images/illustration-big.png 2x' 
+					style ='max-width: 500 px'/>
+		</div>
+																								 
+		<div class = 'section feature-1'>
+			<img src = 'images/feature.svg'/>
+		</div>
+		<div class = 'section feature-2'>
+			<img src = 'images/feature.svg'/>
+		</div>
+		<div class = 'section feature-3'>
+			<img src = 'images/feature.svg'/>
+		</div>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Assignment1</title>
+
+<style>
+	/*.notebox{
+		border: 4px solid #666;
+		padding:0.5em;
+	}
+	.notebox.warning{
+		border: 4px solid #FF8600;
+		padding:0.5em;
+		font-weight:bold;
+	}
+	.notebox.danger{
+		border: 4px solid #FF0004;
+		padding: 0.5em;
+		font-weight: bold;
+	}
+	
+	h1#headline{
+		color: purple;
+	}
+	
+	p#one{
+		background-color:yellow;
+	}
+	*/
+	/*.wrapper{
+		display:flex;
+	}*/
+/*Add flex property to all our child items, with a value of 1 This will cause all the items to grow and fill the container, rather than leaving a space at the end. If there ar more space then the item will become wider, if there are less space they will become narrower. In addition, if you add another element to the markup the items will all become simaller to make space for it.They will adjust the size to take up the same amount of space.*/
+	/*.wrapper>  div{
+		flex: 1;
+	}
+	
+	.box1{
+		border: 4px solid #666;
+		padding:0.5em;
+	}
+	.box2{
+		border: 4px solid #000001;
+		padding:0.5em;
+	}
+	.box3{
+		border: 4px solid blue;
+		padding:0.5em;
+	}
+	*/
+	.wrapper{
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 100px 100px;
+		grid-gap: 10px;
+	}
+	.box1{
+		border: 4px solid #666;
+		padding:0.5em;
+	}
+	.box2{
+		border: 4px solid #000001;
+		padding:0.5em;
+	}
+	.box3{
+		border: 4px solid blue;
+		padding:0.5em;
+	}
+	.box4{
+		border: 4px solid red;
+		padding:0.5em;
+	}
+	.box5{
+		border: 4px solid green;
+		padding:0.5em;
+	}
+	.box6{
+		border: 4px solid yellow;
+		padding:0.5em;
+	}
+
+</style>
+</head>
+<body>
+	
+	<div class= "wrapper">
+		<div class= "box1"> One </div>
+		<div class= "box2"> Two </div>
+		<div class= "box3"> Three </div>
+		<div class= "box4"> Four </div>
+		<div class= "box5"> Five </div>
+		<div class= "box6"> Six </div>
+	</div>
+	
+	<!--
+	<div class= "notebox">
+		This is informational note
+	</div>
+	
+	<br>
+	<div class = "notebox warning">
+	This note shown warning.
+	</div>
+	
+	
+	<br>
+	<div class = "notebox danger">
+		This note shows danger!
+	</div>
+	
+	<h1 id= "headline"> Dan is Awesome Again!</h1>
+	Told against the backdrop of the changing political landscape of Afghanistan from the 1970s to the period following 9/11, The Kite Runner is the story of the unlikely and complicated friendship between Amir, the son of a wealthy merchant, and Hassan, the son of his father’s servant until cultural and class differences and the turmoil of war tear them asunder.
+	
+	<p id= "one">Hosseini brings his homeland to life for us in a way that post 9/11 media coverage never could, showing us a world of ordinary people who live, die, eat, pray, dream, and love. It’s a story about the long
+	shadows that family secrets cast across decades, the enduring love of friendship, and the transformative power of forgiveness.</p>
+	-->
+</body>
+</html>

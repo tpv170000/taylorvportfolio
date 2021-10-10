@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Slide Show</title>
+	
+	<link href="styles.css" rel="stylesheet" type="text/css">
+	
+	<script>
+		var slideIndex = 0;
+		showSlides();
+		function showSlides()
+		{
+			var i;
+			var slides = document.getElementByClassName("dot");
+			var dots = documents.getElementsByClassName("image-sliderfade");
+		
+		for (i = 0; i < slides.length; i++){
+			slides[i]style.display = "none";
+		}
+		slideIndex++;
+		if(slideIndex> slides.length)
+			{
+				slideIndex=1;
+			}
+		for(i = 0; i< dots.length;i++)
+			{
+				dots[i].className = dots[i].className.replace)" active", "");
+			}
+		slides[slideIndex - 1].style.display ="block";
+		dots[slideIndex - 1].className += " active";
+		setTimeout(showSlides, 2000);
+		}
+	</script>
+</head>
+
+<body>
+	<!-- Slideshow Container Div -->
+	
+	<div class = "container">
+		<!-- Full width images with caption text -->
+		<div class = "image-slidefade fade">
+			<img src = "img1.jpg" style = "width: 100%">
+			<div class = "text"> Red Plumeria </div>
+		</div>
+		
+		<div class = "image-slidefade fade">
+			<img src = "img2.jpg" style = "width: 100%">
+			<div class = "text"> Red Plumeria with a different angle </div>
+		</div>
+		
+		<div class = "image-slidefade fade">
+			<img src = "img3.jpg" style = "width: 100%">
+			<div class = "text"> Red Carnation </div>
+		</div>
+	</div>
+	
+	<br>
+	
+	<!-- The dots/circles-->
+	<div style = "text-align: center">
+		<span class = "dot"></span>
+		<span class = "dot"></span>
+		<span class = "dot"></span>
+	</div>
+	
+</body>
+</html>

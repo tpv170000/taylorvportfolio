@@ -1,0 +1,64 @@
+-- Advantages of JavaScript (Interactive) --
+
+1. Run on the Clients Computer
+
+2. Reduce Traffic on the network (Don't Rely on Bandwidth)
+
+3. Front End- control to update
+
+---
+
+Why do we have different browsers?
+
+*very rich applications and connecting to the internet easily
+
+---
+
+JavaScript Interactive 
+
+*Game, Business Applications, Usernames and Passwords
+
+*Presentations with CSS, check forms 
+
+
+---
+
+jQuery - database access (JavaScript Question)
+
+*pulling data that fits requirements 
+
+--
+
+Classes
+
+IMED 1416 
+
+ITSE 1311
+
+-- 
+
+Errors in Coding
+
+*Syntax Error - mispelling 
+
+*Logical Error (hardest to spot) - ex: wrong formula 
+
+*Runtime Error - ex: wrong character or integer
+
+--
+span is inline tag that is a part of the div tag
+
+* (asteriks) - universal 
+
+____________________________________________________________________________________________
+
+Class + Data -> (Instantiation Process) -> Object / Instance - Data Structure -- data mining (learning user) 
+
+Class is about MEMORY MANAGEMENT
+
+ex:
+Facebook asks for information - gives information - based on info - Facebook gives notification based on info
+
+-- MEMORY MANAGEMENT --
+1. Variables Size - why data types? -- limit resources, PRECISION 
+	DATA TYPES: String, int = 4 bytes, bool= 1 byte (True (1)/ False(0), char= 1 byte (alpha, 		numeric, special char- has to have ('')), double= 8 bytes (has decimals), float= 4 bytes
